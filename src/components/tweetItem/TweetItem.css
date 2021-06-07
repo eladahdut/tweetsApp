@@ -1,0 +1,13 @@
+.tweetItem {
+  background-color: #343a40;
+  border-radius: 6px;
+  padding: 1.5%;
+  margin-top: 0.75rem;
+  width: 94%;
+  color: rgba(255, 255, 255, 1);
+}
+.topOfItem {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(108, 117, 125, 1);
+}

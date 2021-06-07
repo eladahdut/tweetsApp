@@ -1,0 +1,30 @@
+.parentDiv {
+  position: relative;
+}
+
+textarea {
+  margin-top: 1rem;
+  background-color: transparent;
+  border-color: whitesmoke;
+  border-radius: 0.3rem;
+  color: whitesmoke;
+}
+textarea::placeholder {
+  color: whitesmoke;
+}
+.tweetBtn {
+  position: absolute;
+  border-radius: 4px;
+  z-index: 2;
+  border: none;
+  top: 75%;
+  right: 2%;
+  color: white;
+  background-color: rgba(0, 123, 255, 1);
+}
+
+.tweetBtn:disabled,
+button[disabled] {
+  background-color: rgba(0, 123, 190, 0.842);
+  color: #f2f2f2;
+}
